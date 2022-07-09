@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aligment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+
+        }
+        body{
+            font-family: 'Neonderthaw', cursive;
+        }
+
+        .container {
+            background-color: rgb(19, 248, 11);
+            width: 900px;
+            border: 3px solid red;
+            margin: auto;
+        }
+
+        .item {
+            border: 4px solid gold;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(233, 152, 193);
+        }
+        #fruit
+        {
+            float: left;
+            width: 48%;
+
+        }
+        #computer
+        {
+            float: right;
+            width: 48%;
+
+        }
+        #stationary
+        {
+            /* float: left; */
+            clear: both;
+            width: 100%;
+
+        }
+        p,h4{
+            text-align: right;
+            text-align: left;
+            text-align: center;
+            text-align: justify;
+        }
+        h1{
+            margin: auto;
+            width: 455px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruit" class="item">
+            <h4>fruit</h4>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nesciunt
+                quisquam, ipsa tempora est repudiandae perferendis deleniti consectetur optio, totam ipsum illum
+                delectus distinctio fugit nemo culpa assumenda? Odit, non!</p>
+        </div>
+        <div id="computer" class="item">
+            <h4>computer</h4>
+            <p id="computerspara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+                nesciunt quisquam, ipsa tempora est repudiandae perferendis deleniti consectetur optio, totam ipsum
+                illum delectus distinctio fugit nemo culpa assumenda? Odit, non! Lorem ipsum dolor sit amet consectetur, adipisicing elit. At ab, facere voluptas error nostrum, tempora culpa aliquam sit cumque aperiam suscipit cupiditate sint. Magni aut ex accusantium illum officia fugiat!</p>
+        </div>
+        <div id="stationary" class="item">
+            <h4>stationary</h4>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+                nesciunt quisquam, ipsa tempora est repudiandae perferendis deleniti consectetur optio, totam ipsum
+                illum delectus distinctio fugit nemo culpa assumenda? Odit, non!</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
